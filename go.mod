@@ -6,7 +6,7 @@ toolchain go1.22.3
 
 require (
 	github.com/DataDog/datadog-go v4.8.3+incompatible
-	github.com/alecthomas/kong v0.9.0
+	github.com/alecthomas/kong v1.8.1
 	github.com/armon/go-metrics v0.4.1
 	github.com/aws/aws-sdk-go v1.55.5
 	github.com/aws/rolesanywhere-credential-helper v1.0.4
