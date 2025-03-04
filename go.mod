@@ -1,8 +1,7 @@
 module github.com/square/spiffe-aws-assume-role
 
 go 1.21
-
-toolchain go1.22.3
+toolchain go1.22.5
 
 require (
 	github.com/DataDog/datadog-go v4.8.3+incompatible
@@ -17,7 +16,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spiffe/go-spiffe/v2 v2.2.0
 	github.com/stretchr/testify v1.10.0
-	google.golang.org/grpc v1.66.0
+	google.golang.org/grpc v1.71.0
 )
 
 require (
@@ -35,13 +34,13 @@ require (
 	github.com/zeebo/errs v1.3.0 // indirect
 	golang.org/x/crypto v0.32.0 // indirect
 	golang.org/x/mod v0.17.0 // indirect
-	golang.org/x/net v0.33.0 // indirect
+	golang.org/x/net v0.34.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
 	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240604185151-ef581f913117 // indirect
-	google.golang.org/protobuf v1.34.1 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250115164207-1a7da9e5054f // indirect
+	google.golang.org/protobuf v1.36.4 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
